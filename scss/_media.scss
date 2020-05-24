@@ -1,0 +1,9 @@
+@media screen and (max-width: 900px) {
+  .dr-navbar {
+    flex-direction: column;
+    > * {
+      text-align: center;
+      justify-content: center;
+    }
+  }
+}
