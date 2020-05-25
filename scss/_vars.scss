@@ -5,10 +5,17 @@ $light: #fff;
 $dark: #000;
 $gray: transparentize($dark, 0.4);
 $grayLight: transparentize($dark, 0.6);
+$lightGray: #FAFAFB;
 $lightenPercent: 15%;
 $fontDefault: 'Gilroy', sans-serif;
+$fontSecondary: 'EuclidSquare', sans-serif;
 $maxWidthTitle: 700px;
 $borderRadiusDefault: 16px;
+
+$darkBlue: #0A083A;
+$middleBlue: #8D99A7;
+$accentTwo: #293ACC;
+$grayBlock: #F0F2F6;
 
 $shadowSmall: 0px 2px 16px rgba(0, 0, 0, 0.08);
 $shadowBig: 0px 4px 64px rgba(0, 0, 0, 0.2);

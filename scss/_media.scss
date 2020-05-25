@@ -5,5 +5,33 @@
       text-align: center;
       justify-content: center;
     }
+    &-nav {
+      margin: 30px 0;
+      .nav-link {
+        padding: 0;
+        margin: 0 0 16px 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .footer {
+    &-nav, &__year {
+      text-align: center;
+    }
+  }
+  .promo-content__cta {
+    margin-bottom: 40px;
+    flex-direction: column!important;
+  }
+
+  .promo-content {
+    height: auto;
+  }
+
+  .dr-btn__group > .dr-btn {
+    margin: 0 0 15px 0;
+    width: 100%;
   }
 }

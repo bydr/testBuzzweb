@@ -21,12 +21,23 @@
 }
 
 @font-face {
-  font-family: 'Gilroy';
-  src: url('../fonts/Gilroy/Gilroy-Regular.eot');
-  src: local('Gilroy Regular'), local('Gilroy-Regular'),
-  url('../fonts/Gilroy/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/Gilroy/Gilroy-Regular.woff') format('woff'),
-  url('../fonts/Gilroy/Gilroy-Regular.ttf') format('truetype');
+  font-family: 'EuclidSquare';
+  src: url('../fonts/EuclidSquare/EuclidSquare-SemiBold.eot');
+  src: local('EuclidSquare SemiBold'), local('EuclidSquare-SemiBold'),
+  url('../fonts/EuclidSquare/EuclidSquare-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/EuclidSquare/EuclidSquare-SemiBold.woff') format('woff'),
+  url('../fonts/EuclidSquare/EuclidSquare-SemiBold.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EuclidSquare';
+  src: url('../fonts/EuclidSquare/EuclidSquare-Regular.eot');
+  src: local('EuclidSquare Regular'), local('EuclidSquare-Regular'),
+  url('../fonts/EuclidSquare/EuclidSquare-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/EuclidSquare/EuclidSquare-Regular.woff') format('woff'),
+  url('../fonts/EuclidSquare/EuclidSquare-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
